@@ -18,4 +18,6 @@ def generate_e(decimal_places):
 
 decimal_places = input("Please enter the number of decimal places you would "
 "like to generate for the value of e (It can't surpass 100): ")
-generate_e(decimal_places)
+
+if __name__ == '__main__':
+    generate_e(decimal_places)

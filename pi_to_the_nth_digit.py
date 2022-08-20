@@ -16,6 +16,7 @@ def generate_pi(decimal_places):
                 required_pi_digits = f.read(decimal_places)
             print(required_pi_digits)
 
-decimal_places = input("Please enter the amount of pi decimal places you would like to"
-" generate (cannot generate more than 1000): ")
-generate_pi(decimal_places)
+if __name__ == '__main__':
+    decimal_places = input("Please enter the amount of pi decimal places you would like to"
+    " generate (cannot generate more than 1000): ")
+    generate_pi(decimal_places)

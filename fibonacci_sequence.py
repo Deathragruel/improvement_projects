@@ -20,6 +20,7 @@ def generate_fibonacci_sequence(n):
             first_number = second_number 
             second_number = total_number
 
-n = input("Please enter the amount of numbers of fibonacci sequence you would "
-"like to see (Press CTRL-C to cancel): ")
-generate_fibonacci_sequence(n)
+if __name__ == '__main__':
+    n = input("Please enter the amount of numbers of fibonacci sequence you would "
+    "like to see (Press CTRL-C to cancel): ")
+    generate_fibonacci_sequence(n)

@@ -13,5 +13,6 @@ while number != 1:
     else:
         n += 1
 
-for n in number_list:
-    print(n)
+if __name__ == '__main__':
+    for n in number_list:
+        print(n)
